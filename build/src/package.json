@@ -1,0 +1,24 @@
+{
+	"name": "postcard-js",
+	"version": "0.0.1",
+	"description": "An abstraction layer over message brokers",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/claclacla/Postcard.js.git"
+	},
+	"keywords": [
+		"message broker",
+		"rabbitmq",
+		"microservices"
+	],
+	"author": "Simone Adelchino",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/claclacla/Postcard.js/issues"
+	},
+	"homepage": "https://github.com/claclacla/Postcard.js#readme"
+}

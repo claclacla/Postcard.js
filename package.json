@@ -1,0 +1,15 @@
+{
+  "name": "postcard.js",
+  "version": "0.0.1",
+  "description": "Postcard.js",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "rm -fr ./build/dist; mkdir build/dist; cp -fr lib/Postcard/* build/dist; cp README.MD build/dist; cp CHANGELOG.MD build/dist; cp build/src/package.json build/dist"
+  },
+  "dependencies": {
+    "amqplib": "0.5.2"
+  }
+}

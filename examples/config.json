@@ -1,0 +1,5 @@
+{
+  "rabbitmq": {
+    "address": "rabbitmq:5672"
+  }
+}
