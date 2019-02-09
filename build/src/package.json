@@ -1,7 +1,7 @@
 {
 	"name": "postcard-js",
-	"version": "0.0.2",
-	"description": "An abstraction layer over message brokers",
+	"version": "1.0.0",
+	"description": "An abstraction layer over message brokers clients",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
