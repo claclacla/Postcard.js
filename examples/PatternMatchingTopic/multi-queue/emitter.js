@@ -13,7 +13,10 @@ const Routing = require("../../../lib/Postcard/Routing");
   const rabbitMQDispatcher = new RabbitMQDispatcher({ 
     host: "amqp://" + config.rabbitmq.address
   });
-  const postcard = new Postcard(rabbitMQDispatcher);
+  const postcard = new Postcard({
+    dispatcher: rabbitMQDispatcher,
+    automaticRecovery: true
+  });
 
   try {
     await postcard.connect();
