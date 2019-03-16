@@ -6,7 +6,8 @@ networks:
 
 services:
   rabbitmq:
-    image: rabbitmq:3.7.8
+    build: ./rabbitmq
+    image: claclacla/rabbitmq
     container_name: RabbitMQ
     networks:
       - rabbitmq_network
